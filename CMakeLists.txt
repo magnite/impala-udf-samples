@@ -21,13 +21,13 @@ set(EXECUTABLE_OUTPUT_PATH "build")
 
 find_program(CLANG_EXECUTABLE clang++)
 
-SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -ggdb -I/opt/cloudera/parcels/CDH/include")
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -ggdb")
 
 # Function to generate rule to cross compile a source file to an IR module.
 # This should be called with the .cc src file and it will generate a
 # src-file-ir target that can be built.
 # e.g. COMPILE_TO_IR(test.cc) generates the "test-ir" make target.
-set(IR_COMPILE_FLAGS "-emit-llvm" "-O3" "-c")
+set(IR_COMPILE_FLAGS "-emit-llvm" "-O3" "-c" "-I/opt/cloudera/parcels/CDH/include")
 function(COMPILE_TO_IR SRC_FILE)
   get_filename_component(BASE_NAME ${SRC_FILE} NAME_WE)
   set(OUTPUT_FILE "build/${BASE_NAME}.ll")
