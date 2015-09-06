@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		9DDA8A2F1B9C42D1000C6DDC /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = ../CMakeLists.txt; sourceTree = "<group>"; };
+		9DDA8A301B9C42D1000C6DDC /* hyperloglog-uda.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "hyperloglog-uda.cc"; path = "../hyperloglog-uda.cc"; sourceTree = "<group>"; };
+		9DDA8A311B9C42D1000C6DDC /* java */ = {isa = PBXFileReference; lastKnownFileType = folder; name = java; path = ../java; sourceTree = "<group>"; };
+		9DDA8A321B9C42D1000C6DDC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9DDA8A331B9C42D1000C6DDC /* uda-sample-test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "uda-sample-test.cc"; path = "../uda-sample-test.cc"; sourceTree = "<group>"; };
+		9DDA8A341B9C42D1000C6DDC /* uda-sample.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "uda-sample.cc"; path = "../uda-sample.cc"; sourceTree = "<group>"; };
+		9DDA8A351B9C42D1000C6DDC /* uda-sample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "uda-sample.h"; path = "../uda-sample.h"; sourceTree = "<group>"; };
+		9DDA8A361B9C42D1000C6DDC /* udf-sample-test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "udf-sample-test.cc"; path = "../udf-sample-test.cc"; sourceTree = "<group>"; };
+		9DDA8A371B9C42D1000C6DDC /* udf-sample.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "udf-sample.cc"; path = "../udf-sample.cc"; sourceTree = "<group>"; };
+		9DDA8A381B9C42D1000C6DDC /* udf-sample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "udf-sample.h"; path = "../udf-sample.h"; sourceTree = "<group>"; };
+		9DDA8A391B9C42D1000C6DDC /* udfs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = udfs; sourceTree = "<group>"; };
+		9DDA8A3A1B9C42D1000C6DDC /* variance-uda.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "variance-uda.cc"; path = "../variance-uda.cc"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		9DDA8A241B9C41C6000C6DDC = {
+			isa = PBXGroup;
+			children = (
+				9DDA8A2F1B9C42D1000C6DDC /* CMakeLists.txt */,
+				9DDA8A301B9C42D1000C6DDC /* hyperloglog-uda.cc */,
+				9DDA8A311B9C42D1000C6DDC /* java */,
+				9DDA8A321B9C42D1000C6DDC /* README.md */,
+				9DDA8A331B9C42D1000C6DDC /* uda-sample-test.cc */,
+				9DDA8A341B9C42D1000C6DDC /* uda-sample.cc */,
+				9DDA8A351B9C42D1000C6DDC /* uda-sample.h */,
+				9DDA8A361B9C42D1000C6DDC /* udf-sample-test.cc */,
+				9DDA8A371B9C42D1000C6DDC /* udf-sample.cc */,
+				9DDA8A381B9C42D1000C6DDC /* udf-sample.h */,
+				9DDA8A391B9C42D1000C6DDC /* udfs */,
+				9DDA8A3A1B9C42D1000C6DDC /* variance-uda.cc */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		9DDA8A291B9C41C6000C6DDC /* udfs */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 9DDA8A2C1B9C41C6000C6DDC /* Build configuration list for PBXLegacyTarget "udfs" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			dependencies = (
+			);
+			name = udfs;
+			passBuildSettingsInEnvironment = 1;
+			productName = udfs;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		9DDA8A251B9C41C6000C6DDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Rob;
+				TargetAttributes = {
+					9DDA8A291B9C41C6000C6DDC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 9DDA8A281B9C41C6000C6DDC /* Build configuration list for PBXProject "udfs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DDA8A241B9C41C6000C6DDC;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DDA8A291B9C41C6000C6DDC /* udfs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		9DDA8A2A1B9C41C6000C6DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9DDA8A2B1B9C41C6000C6DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9DDA8A2D1B9C41C6000C6DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9DDA8A2E1B9C41C6000C6DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DDA8A281B9C41C6000C6DDC /* Build configuration list for PBXProject "udfs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DDA8A2A1B9C41C6000C6DDC /* Debug */,
+				9DDA8A2B1B9C41C6000C6DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DDA8A2C1B9C41C6000C6DDC /* Build configuration list for PBXLegacyTarget "udfs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DDA8A2D1B9C41C6000C6DDC /* Debug */,
+				9DDA8A2E1B9C41C6000C6DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DDA8A251B9C41C6000C6DDC /* Project object */;
+}
