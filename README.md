@@ -7,3 +7,5 @@ To get started:
 3. make
 
 The samples will get built to build/. This contains test executables that you can run locally, without the impala service installed as well as the shared object artifacts that we can run on impala.
+
+install impala udf.
